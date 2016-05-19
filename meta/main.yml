@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Marco Shimomoto
+  description: Role to install Atom on an Ubuntu box
+  license: license MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+
+  galaxy_tags:
+    - development
+    - gui
+dependencies: []

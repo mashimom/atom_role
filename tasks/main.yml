@@ -1,0 +1,6 @@
+---
+# tasks file for atom
+- copy: src={{ ATOM_BUNDLE }} dest=/tmp/{{ ATOM_BUNDLE }}
+
+- apt: name=/tmp/{{ ATOM_BUNDLE }}
+  become: yes
